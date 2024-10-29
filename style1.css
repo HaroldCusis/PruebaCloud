@@ -87,7 +87,7 @@ header {
 .dropup-content {
     display: none;
     position: absolute;
-    background-color: rgb(32, 93, 203);
+    background-color: rgb(182,32,32);
     min-width: 160px;
 }
 
@@ -103,7 +103,7 @@ header {
 }
 
 .dropup:hover .dropbtn {
-    background-color: #2980B9;
+    background-color: #b92929;
 }
 
 .container {
@@ -169,18 +169,18 @@ input [type="radio"] {
     height: 15px;
     margin: 0 5px;
     border-radius: 50%;
-    background-color: #ff1100;
+    background-color: #c92a1f;
     cursor: pointer;
 }
 
 input [type="radio"]:checked+label {
-    background-color: #00aaff;
+    background-color: #ff1100;
 }
 
 .mission-text {
-    width: 45%; 
+    width: 30%; 
     padding: 10%;
-    background-color: #ff1100;
+    background-color: #b5261b;
     box-shadow: 0 4px 10px rgba(12, 178, 229, 0.1);
     border-radius: 10px;
 }
