@@ -100,14 +100,14 @@ header {
     display: block;
 }
 
-.dropup-content a:hover {background-color: #ccc}
+.dropup-content a:hover {background-color: #000000}
 
 .dropup:hover .dropup-content {
     display: block;
 }
 
 .dropup:hover  .dropbtn{
-    background-color: #298089;
+    background-color: rgb(182, 32, 32);
 }
 
 @media screen and (max-width: 600px){

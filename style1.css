@@ -87,9 +87,17 @@ header {
 .dropup-content {
     display: none;
     position: absolute;
-    background-color: rgb(182,32,32);
+    background-color: rgb(182, 32, 32);
     min-width: 160px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
+
+.dropup:hover .dropup-content {
+    display: block;
+    opacity: 1;
+}
+
 
 .dropup-content a {
     color: black;
@@ -101,6 +109,7 @@ header {
 .dropup-content a:hover {
     background-color: #ccc;
 }
+
 
 .dropup:hover .dropbtn {
     background-color: #b92929;
@@ -178,9 +187,10 @@ input [type="radio"]:checked+label {
 }
 
 .mission-text {
+    font-family:Arial Black, Helvetica, sans-serif;
     width: 30%; 
-    padding: 10%;
-    background-color: #b5261b;
+    padding: 5.5%;
+    background-color: #f6f6f6;
     box-shadow: 0 4px 10px rgba(12, 178, 229, 0.1);
     border-radius: 10px;
 }
@@ -188,7 +198,7 @@ input [type="radio"]:checked+label {
 .mission-text h1 { 
     text-align: center;
     font-size: 3rem;
-    color: #ffffff;
+    color: #ff0000;
 }
 
 .mission-text p {
